@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+using CSharp.Extensions;
 
 namespace CSharp
 {
@@ -10,6 +8,14 @@ namespace CSharp
 	{
 		static void Main(string[] args)
 		{
+			IBaseClass bc = new BaseClass();
+			// bc.DoWorkToInt(5);
+			bc.ExtensionWork(5);
+
+			IBaseClass ic = new InheritingClass();
+			ic.DoWorkToString("EXAMPLE STRING");
+
+			Console.ReadLine();
 		}
 	}
 }

@@ -1,5 +1,5 @@
 Exception Handling
-Generics
+Generics { Nullable Modifier, Generic Types, Constraints, Generic Methods, Generic Internals }
 Delegates
 Events
 Lambda Expressions

@@ -6,6 +6,7 @@ namespace CSharp
 {
 	public class Program
 	{
+    public delegate void Print(int value);
 		static void Main(string[] args)
 		{
 			#region Extensions
@@ -17,12 +18,20 @@ namespace CSharp
 			//ic.DoWorkToString("EXAMPLE STRING");
 			#endregion
 
-			Cat cat = new Cat("Mr. Cat");
-			cat.Feed();
-			cat.Play();
+			#region Inheritance
+			// Cat cat = new Cat("Mr. Cat");
+			// cat.Feed();
+			// cat.Play();
+			#endregion
+
+			#region Delegates
+			Delegates delegates = new Delegates();
+			delegates.CallDelegate();
+			#endregion
 
 			Console.ReadLine();
 
 		}
+
 	}
 }

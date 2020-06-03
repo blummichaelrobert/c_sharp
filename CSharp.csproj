@@ -43,12 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Encapsulation.cs" />
+    <Compile Include="Encapsulation\Encapsulation.cs" />
     <Compile Include="Extensions\Extensions.cs" />
     <Compile Include="IoC.cs" />
+    <Compile Include="JamesNgo\JamesCat.cs" />
+    <Compile Include="OCP\DeveloperReport.cs" />
+    <Compile Include="OCP\SalaryCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Yield.cs" />
+    <Compile Include="Yield\Yield.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -19,16 +19,20 @@ namespace CSharp
 			#endregion
 
 			#region Inheritance
-			// Cat cat = new Cat("Mr. Cat");
-			// cat.Feed();
-			// cat.Play();
+			//Cat cat = new Cat("Mr. Cat");
+			//cat.Feed();
+			//cat.Play();
 			#endregion
 
 			#region Delegates
-			Delegates delegates = new Delegates();
-			delegates.CallDelegate();
+			//Delegates delegates = new Delegates();
+			//delegates.CallDelegate();
 			#endregion
 
+
+			JamesCat myCat = new JamesCat();
+
+			myCat.feed();
 			Console.ReadLine();
 
 		}

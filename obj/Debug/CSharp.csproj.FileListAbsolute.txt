@@ -4,3 +4,4 @@ C:\Users\michael.blum\Desktop\language sandbox\c sharp\bin\Debug\CSharp.pdb
 C:\Users\michael.blum\Desktop\language sandbox\c sharp\obj\Debug\CSharp.csprojAssemblyReference.cache
 C:\Users\michael.blum\Desktop\language sandbox\c sharp\obj\Debug\CSharp.exe
 C:\Users\michael.blum\Desktop\language sandbox\c sharp\obj\Debug\CSharp.pdb
+C:\Users\michael.blum\Desktop\language sandbox\c sharp\obj\Debug\CSharp.csproj.CoreCompileInputs.cache
